@@ -63,3 +63,9 @@ actions.chat = function()
 	actions.switch();
 	keyboard.stroke("alt", "h");
 end
+
+--@help Raise/Lower hand
+actions.chat = function()
+	actions.switch();
+	keyboard.stroke("alt", "y");
+end
